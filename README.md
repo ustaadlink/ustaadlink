@@ -19,3 +19,8 @@ UstaadLink — Learn Better. Learn at Home.
 ## Deployment
 Upload the contents of this folder to the root of your GitHub Pages repository.
 Make sure `index.html` is directly in the repository root.
+
+
+## Latest design update
+- Main website typography set to Times New Roman.
+- IELTS, German and Arabic opportunities are shown as compact header links on desktop and open WhatsApp directly.
