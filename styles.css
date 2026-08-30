@@ -15,7 +15,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--white);line-height:1.65}
+body{margin:0;font-family:"Times New Roman",Times,serif;color:var(--ink);background:var(--white);line-height:1.65}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
 .container{width:min(1120px,92%);margin:auto}
@@ -130,11 +130,14 @@ summary{cursor:pointer;font-weight:800;color:var(--navy)}
 .language-note{text-align:center;color:var(--muted);margin-top:24px}
 @media(max-width:850px){.language-grid{grid-template-columns:1fr}}
 
-/* UstaadLink header opportunity strip */
-.header-opportunities{display:flex;align-items:center;gap:8px;margin-left:auto;white-space:nowrap}
-.header-opportunities a{display:inline-flex;align-items:center;padding:7px 10px;border-radius:999px;text-decoration:none;font-weight:700;font-size:14px;line-height:1}
-.header-opportunities .opp-ielts{background:#f1f5f9}
-.header-opportunities .opp-german{background:#f1f5f9}
-.header-opportunities .opp-arabic{background:#f1f5f9}
-@media(max-width:1050px){.header-opportunities{gap:4px}.header-opportunities a{font-size:12px;padding:6px 7px}}
-@media(max-width:800px){.header-opportunities{display:none}}
+
+/* Clean hero presentation for additional services */
+.hero-card-enhanced{padding:16px 16px 20px;transform:none;text-align:center}
+.hero-card-enhanced>img{max-width:84%;margin:12px auto 0;aspect-ratio:1/1;object-fit:contain}
+.offer-box{background:linear-gradient(135deg,#fff9e9,#fff);border:1px solid #f1dfad;border-radius:18px;padding:16px 14px 13px}
+.offer-title{font-size:1.25rem;font-weight:900;color:var(--navy);margin-bottom:10px}
+.offer-links{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
+.offer-links a{display:inline-flex;align-items:center;gap:5px;padding:8px 10px;border:1px solid #e4e9f0;border-radius:999px;background:#fff;color:var(--navy);font-weight:800;font-size:.88rem;transition:.2s}
+.offer-links a:hover{border-color:var(--gold);transform:translateY(-1px);box-shadow:0 6px 14px rgba(11,42,85,.08)}
+.offer-note{font-size:.78rem;color:var(--muted);margin-top:9px}
+@media(max-width:850px){.hero-card-enhanced>img{max-width:78%}.offer-title{font-size:1.1rem}}
