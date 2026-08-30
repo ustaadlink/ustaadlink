@@ -10,14 +10,21 @@ document.addEventListener("DOMContentLoaded", () => {
     a.addEventListener("click", () => links && links.classList.remove("open"));
   });
 
-  document.querySelectorAll("form[data-demo-form]").forEach(form => {
+  document.querySelectorAll("form[data-mailto-form]").forEach(form => {
     form.addEventListener("submit", e => {
       e.preventDefault();
+      const to = form.dataset.mailtoTo || "ustaadlink@gmail.com";
+      const name = form.querySelector('[name="name"]')?.value || "";
+      const phone = form.querySelector('[name="phone"]')?.value || "";
+      const message = form.querySelector('[name="message"]')?.value || "";
+      const subject = `Website message from ${name}`;
+      const body = `Name: ${name}\nPhone/WhatsApp: ${phone}\n\n${message}`;
       const notice = form.querySelector(".notice");
       if (notice) {
         notice.style.display = "block";
-        notice.textContent = "Thank you! Your information has been recorded on this demo page. Connect this form to Google Forms or Formspree before launching.";
+        notice.textContent = "Opening your email app with this message addressed to UstaadLink...";
       }
+      window.location.href = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       form.reset();
     });
   });

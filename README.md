@@ -22,12 +22,7 @@ Make sure `index.html` is directly in the repository root.
 
 
 ## Latest design update
-- Main website typography set to Times New Roman.
+- Site typography uses the built-in Inter/system sans-serif stack for a cleaner, more modern look.
 - IELTS, German and Arabic opportunities are shown as compact header links on desktop and open WhatsApp directly.
-
-
-## Homepage design update
-- Removed the language-looking strip below the navigation.
-- Added a clear “We Also Offer” panel in the hero area beside the main content, above the logo.
-- IELTS, German Language, and Arabic Language open WhatsApp directly.
-- Typography is Times New Roman.
+- The Find a Tutor and Become a Tutor pages now link straight to the official UstaadLink Google Forms instead of a non-functional demo form.
+- The Contact page message form opens the visitor's email app addressed to UstaadLink instead of silently discarding the message.
