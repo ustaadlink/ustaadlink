@@ -1,31 +1,21 @@
 # UstaadLink — Home Tuition Network
 
-A responsive static website for UstaadLink, a home tuition network in Peshawar.
+## Website
+UstaadLink — Learn Better. Learn at Home.
 
-## Included
-- `index.html` — Home / launch page
-- `find-tutor.html` — Student/parent tutor request form
-- `become-tutor.html` — Tutor registration form
-- `about.html` — About + FAQ
-- `contact.html` — Contact page
-- `styles.css` — Responsive design
-- `script.js` — Mobile menu + demo form behavior
-- `assets/ustaadlink-logo.png` — UstaadLink logo
+## Main actions
+- Request a Tutor
+- Register as a Tutor
 
-## Important before launch
-The forms are currently demo forms: they show a confirmation message but do not send data anywhere.
-Connect them to Google Forms, Formspree, or your own backend before publishing.
+## Connected Google Forms
+- Request a Tutor: connected to the supplied UstaadLink Google Form.
+- Register as a Tutor: connected to the supplied UstaadLink Google Form.
 
-Replace placeholder phone/WhatsApp/email/Facebook details in `contact.html` and `styles.css`/HTML as needed.
-
-## Free hosting
-You can publish these files on GitHub Pages or Cloudflare Pages. The site is plain HTML/CSS/JS and needs no paid server.
-
-
-## UstaadLink contact details configured
+## Contact
 - WhatsApp: +92 320 5097053
 - Email: ustaadlink@gmail.com
 - Facebook: https://www.facebook.com/share/1cEtzWxbXN/
 
-## Forms
-The Find a Tutor and Become a Tutor forms are currently demo forms. The next step is to connect them to Google Forms/Google Sheets so submissions are stored automatically.
+## Deployment
+Upload the contents of this folder to the root of your GitHub Pages repository.
+Make sure `index.html` is directly in the repository root.
