@@ -117,3 +117,7 @@ summary{cursor:pointer;font-weight:800;color:var(--navy)}
   .footer-grid{grid-template-columns:1fr}
   .footer-bottom{flex-direction:column}
 }
+
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:100;display:flex;align-items:center;gap:8px;background:#1fae66;color:#fff;border-radius:999px;padding:12px 17px;font-weight:900;box-shadow:0 12px 30px rgba(0,0,0,.18);transition:.2s}
+.wa-float:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(0,0,0,.22)}
+@media(max-width:560px){.wa-float{right:14px;bottom:14px;padding:11px 14px}.wa-float span{display:none}}

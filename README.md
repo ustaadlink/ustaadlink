@@ -20,3 +20,12 @@ Replace placeholder phone/WhatsApp/email/Facebook details in `contact.html` and 
 
 ## Free hosting
 You can publish these files on GitHub Pages or Cloudflare Pages. The site is plain HTML/CSS/JS and needs no paid server.
+
+
+## UstaadLink contact details configured
+- WhatsApp: +92 320 5097053
+- Email: ustaadlink@gmail.com
+- Facebook: https://www.facebook.com/share/1cEtzWxbXN/
+
+## Forms
+The Find a Tutor and Become a Tutor forms are currently demo forms. The next step is to connect them to Google Forms/Google Sheets so submissions are stored automatically.
