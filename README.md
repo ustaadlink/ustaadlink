@@ -31,3 +31,8 @@ Make sure `index.html` is directly in the repository root.
 - Added a clear “We Also Offer” panel in the hero area beside the main content, above the logo.
 - IELTS, German Language, and Arabic Language open WhatsApp directly.
 - Typography is Times New Roman.
+
+
+## Final cleanup
+- Removed unnecessary repeated Request a Tutor CTA from the homepage.
+- Increased key text sizes slightly for readability.

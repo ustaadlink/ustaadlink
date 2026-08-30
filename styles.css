@@ -141,3 +141,15 @@ summary{cursor:pointer;font-weight:800;color:var(--navy)}
 .offer-links a:hover{border-color:var(--gold);transform:translateY(-1px);box-shadow:0 6px 14px rgba(11,42,85,.08)}
 .offer-note{font-size:.78rem;color:var(--muted);margin-top:9px}
 @media(max-width:850px){.hero-card-enhanced>img{max-width:78%}.offer-title{font-size:1.1rem}}
+
+/* Final readability pass */
+body { font-size: 17px; }
+.nav a, nav a { font-size: 16px; }
+.hero p { font-size: 18px; line-height: 1.75; }
+.hero h1 { line-height: 1.05; }
+.hero .btn, .hero a.btn, .cta a, .cta button { font-size: 17px; }
+.service-card h3 { font-size: 23px; }
+.service-card p { font-size: 17px; }
+.section-head h2 { font-size: 32px; }
+.section-head p { font-size: 18px; }
+.header-opportunities a { font-size: 15px; }
